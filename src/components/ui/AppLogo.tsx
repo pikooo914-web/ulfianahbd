@@ -13,7 +13,7 @@ interface AppLogoProps {
 }
 
 const AppLogo = memo(function AppLogo({
-  src = '/assets/images/app_logo.png',
+  src = '/assets/images/Desain_tanpa_judul__3_-1785489835356.png',
   iconName = 'SparklesIcon',
   size = 64,
   className = '',
