@@ -163,9 +163,6 @@ export default function WishesSection() {
           <h2 className="reveal-item font-display font-bold text-foreground mb-3" style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)' }}>
             Kata-kata dari Hati
           </h2>
-          <p className="reveal-item text-muted-foreground font-sans text-base max-w-md mx-auto leading-relaxed">
-            Klik setiap kartu untuk membaca pesan untukmu
-          </p>
         </div>
 
         {/* Cards grid */}
