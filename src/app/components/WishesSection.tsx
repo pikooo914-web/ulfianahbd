@@ -79,7 +79,7 @@ function WishCard({ card, index }: { card: WishCard; index: number }) {
 
   return (
     <div
-      className="perspective-card cursor-pointer reveal-item h-56 sm:h-64"
+      className="perspective-card cursor-pointer reveal-item h-64 sm:h-72"
       style={{ transitionDelay: `${index * 80}ms` }}
       onClick={handleFlip}
       role="button"
@@ -97,8 +97,8 @@ function WishCard({ card, index }: { card: WishCard; index: number }) {
 
         {/* Back face */}
         <div className="card-face card-back w-full h-full rounded-2xl bg-card border border-border shadow-md p-6 flex flex-col justify-between">
-          <p className="text-foreground font-sans text-sm leading-relaxed flex-1 overflow-hidden">{card.message}</p>
-          <p className="text-primary font-display font-semibold text-sm mt-3">{card.from}</p>
+          <p className="text-foreground font-sans text-sm leading-relaxed flex-1 overflow-y-auto pr-1">{card.message}</p>
+          <p className="text-primary font-display font-semibold text-sm mt-3 flex-shrink-0">{card.from}</p>
         </div>
       </div>
 
