@@ -41,7 +41,7 @@ export default function Page() {
       {/* Background music */}
       <audio
         ref={audioRef}
-        src="/assets/images/video.mp3"
+        src="/assets/images/Edd_Sheeran_-_Perfect_(mp3.pm).mp3"
         loop
         preload="auto"
         style={{ display: 'none' }}
