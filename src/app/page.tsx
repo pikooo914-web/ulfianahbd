@@ -8,8 +8,6 @@ import MilestonesSection from './components/MilestonesSection';
 import ClosingSection from './components/ClosingSection';
 import Footer from '@/components/Footer';
 
-const DRIVE_FILE_ID = '1N8k3HHkRaiXdxfOdHl__7NIWFaP9QwKC';
-
 export default function Page() {
   const audioRef = useRef<HTMLAudioElement>(null);
 
@@ -27,10 +25,9 @@ export default function Page() {
       {/* Background music — starts when envelope is clicked */}
       <audio
         ref={audioRef}
-        src={`https://drive.google.com/uc?export=download&id=${DRIVE_FILE_ID}`}
+        src="/assets/images/video.mp3"
         loop
         preload="auto"
-        crossOrigin="anonymous"
         style={{ display: 'none' }}
       />
       <HeroSection onOpen={handleEnvelopeOpen} />
