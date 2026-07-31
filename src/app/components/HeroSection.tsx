@@ -136,7 +136,7 @@ export default function HeroSection({ onOpen }: HeroSectionProps) {
           <div className="flex items-center gap-2 justify-center">
             <AppLogo size={36} />
             <span className="font-display text-lg font-semibold text-foreground tracking-tight">
-              UlfianaHBD
+              Ulfiana's Day
             </span>
           </div>
         </div>

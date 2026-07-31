@@ -164,7 +164,7 @@ export default function WishesSection() {
             Kata-kata dari Hati
           </h2>
           <p className="reveal-item text-muted-foreground font-sans text-base max-w-md mx-auto leading-relaxed">
-            Klik setiap kartu untuk membaca pesan spesial yang sudah disiapkan untukmu, Ulfiana 🌸
+            Klik setiap kartu untuk membaca pesan untukmu
           </p>
         </div>
 

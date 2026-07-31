@@ -98,8 +98,8 @@ export default function ClosingSection() {
           className="reveal-item font-display font-bold text-foreground mb-4"
           style={{ fontSize: 'clamp(2rem, 6vw, 4rem)' }}
         >
-          Ulfiana,{' '}
-          <span className="text-shimmer">Kamu Luar Biasa</span>
+          Untuk Perempuan Hebat{' '}
+          <span className="text-shimmer">yang Kucintai</span>
         </h2>
 
         {/* Message */}
